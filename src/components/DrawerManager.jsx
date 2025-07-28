@@ -55,7 +55,6 @@ const DrawerStyleSheet = () => (
         .drawer-content {
             flex-grow: 1;
             overflow-y: auto;
-            padding: 20px;
         }
     `}</style>
 );

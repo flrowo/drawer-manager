@@ -3,6 +3,7 @@
 ## this project specifics
 
 ### config
+- created using `npm 10.9.2` and `node v22.15.0`
 - this project uses absolute pathing for imports
 
 ### running

@@ -21,20 +21,8 @@ const CloseButton = ({ onClick }) => {
 }
 
 const CollapseButton = ({ isToggled, onClick }) => {
-    return <div style={{ flex: 1, display: "flex", alignItems: "center" }}>
-        <div
-            style={{
-                flex: 1,
-                display: "flex",
-                alignItems: "center",
-                cursor: "pointer",
-                lineHeight: 0,
-                padding: 5,
-                margin: 5,
-                borderRadius: "50%",
-                backgroundColor: "#ffffff",
-            }}
-        >
+    return <div className="flex items-center grow">
+        <div className="flex grow items-center cursor-pointer p-[5px] m-[5px] rounded-[50%] bg-white leading-none">
             <ChevronIcon
                 onClick={onClick}
                 style={{
